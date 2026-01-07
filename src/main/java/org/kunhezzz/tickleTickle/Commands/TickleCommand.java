@@ -62,7 +62,7 @@ public class TickleCommand {
                             String str = plugin.getTextManager().getText(tickled);
                             tickled.getWorld().spawnParticle(Particle.CRIT, tickled.getLocation(), 6, 0, 0, 0, 0.6);
                             String name = tickled.getName();
-                            plugin.getServer().broadcastMessage("[TickleTickle] " + tickler.getName() + " tickled" + tickled.getName() + " and says " + str);
+                            plugin.getServer().broadcastMessage("[TickleTickle] " + tickler.getName() + " tickled " + tickled.getName() + " and says " + str);
                             if (! (tickled.getName().equals(tickler.getName()))) {
                                 tickled.sendMessage("[TickleTickle] " + tickler.getName() + "tickled you and says " + str);
                             } else {
