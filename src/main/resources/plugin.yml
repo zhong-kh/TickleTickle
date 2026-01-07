@@ -1,4 +1,4 @@
 name: TickleTickle
-version: '1.0-SNAPSHOT'
+version: '1.0'
 main: org.kunhezzz.tickleTickle.TickleTickle
 api-version: '1.21'
